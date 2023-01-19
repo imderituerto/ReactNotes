@@ -1,10 +1,11 @@
 
 import './App.css';
+import { useState } from 'react';
 
 function App() {
   
   // javascript goes here
-  let counter = 0;
+  let [counter, setCounter] = useState(0);
 
   const incrementCounter = () => {
     counter += 1;
