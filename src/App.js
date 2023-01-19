@@ -16,7 +16,7 @@ function App() {
       <p>Welcome to my React app.</p>
       <hr />
       <p>The current value of the counter is {counter}</p>
-      <button onClick>Increment counter</button>
+      <button onClick={incrementCounter}>Increment counter</button>
     </div>
   );
 }
