@@ -12,8 +12,11 @@ function App() {
   
   return (
     <div className="blue">
-    <h1>Hello world!</h1>
-    <p>Welcome to my React app.</p>
+      <h1>Hello world!</h1>
+      <p>Welcome to my React app.</p>
+      <hr />
+      <p>The current value of the counter is {counter}</p>
+      <button onClick>Increment counter</button>
     </div>
   );
 }
